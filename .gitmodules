@@ -1,0 +1,3 @@
+[submodule "src/configs-neovim"]
+	path = src/configs-neovim
+	url = https://github.com/Thanatisia/configs-neovim
