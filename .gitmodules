@@ -1,3 +1,6 @@
 [submodule "src/configs-neovim"]
 	path = src/configs-neovim
 	url = https://github.com/Thanatisia/configs-neovim
+[submodule "src/configs-tmux"]
+	path = src/configs-tmux
+	url = https://github.com/Thanatisia/configs-tmux
