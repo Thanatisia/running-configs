@@ -21,6 +21,7 @@ This repository also uses submodules for certain configurations where I may alre
 ## Configurations
 ### Submodules
 + [Neovim](https://github.com/Thanatisia/configs-neovim)
++ [Tmux](https://github.com/Thanatisia/configs-tmux)
 
 ## Setup
 ### Dependencies
@@ -29,7 +30,7 @@ This repository also uses submodules for certain configurations where I may alre
 ### Pre-Requisites
 - Clone the repository
     ```console
-    git clone https://github.com/Thanatisia/my-dotfiles
+    git clone https://github.com/Thanatisia/running-configs
     ```
 
 ### Git Submodules
@@ -37,9 +38,10 @@ This repository also uses submodules for certain configurations where I may alre
     ```console
     git submodule init
     ```
-- Update git submodules
+- Update git submodules 
+    + This will clone the submodule packages from the remote repositories into the local repository
     ```console
-    git submodule update
+    git submodule update --init
     ```
 
 ## Documentations
