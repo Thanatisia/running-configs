@@ -22,7 +22,7 @@ This repository also uses submodules for certain configurations where I may alre
 ### Submodules
 + [Neovim](https://github.com/Thanatisia/configs-neovim)
 + [Tmux](https://github.com/Thanatisia/configs-tmux)
-+ [Wezterm](https://github.com/Thanatisia/wezterm)
++ [Wezterm](https://github.com/Thanatisia/configs-wezterm)
 
 ## Setup
 ### Dependencies

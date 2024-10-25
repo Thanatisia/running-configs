@@ -28,3 +28,8 @@
     - Updated document 'USAGE.md'
         + Added wezterm quickstart installation guide
 
+#### 1347H
+- Updates
+    - Updated document 'README.md'
+        + Fixed url 'Thanatisia/configs-wezterm' 
+
