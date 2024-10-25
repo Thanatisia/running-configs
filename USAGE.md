@@ -247,6 +247,43 @@
                 - Pressing the keybinding '[Prefix] + I'
                     + Prefix = Ctrl+B
 
+### Wezterm
+- Change directory into 'src/configs-wezterm'
+    ```bash
+    cd src/configs-wezterm
+    ```
+
+- Install configuration files
+    - Platform-specific
+        - Windows
+            - Home directory
+                ```bash
+                copy src\wezterm\wezterm.lua %USERPROFILE%\.wezterm.lua
+                ```
+            - XDG User Home Directory Layout/Structure
+                - Make necessary directories
+                    ```bash
+                    mkdir %USERPROFILE%\.config\wezterm
+                    ```
+                - Install configuration into home config directory
+                    ```bash
+                    copy src\wezterm\ %USERPROFILE%\.config\wezterm
+                    ```
+        - Linux
+            - Home directory
+                ```bash
+                cp src/wezterm/wezterm.lua ~/.wezterm.lua
+                ```
+            - XDG User Home Directory Layout/Structure
+                - Make necessary directories
+                    ```bash
+                    mkdir -pv ~/.config/wezterm
+                    ```
+                - Install configuration into home config directory
+                    ```bash
+                    cp -r src/wezterm ~/.config/wezterm
+                    ```
+
 ## Wiki
 
 ## Resources

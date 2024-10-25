@@ -4,3 +4,6 @@
 [submodule "src/configs-tmux"]
 	path = src/configs-tmux
 	url = https://github.com/Thanatisia/configs-tmux
+[submodule "src/configs-wezterm"]
+	path = src/configs-wezterm
+	url = https://github.com/Thanatisia/configs-wezterm
